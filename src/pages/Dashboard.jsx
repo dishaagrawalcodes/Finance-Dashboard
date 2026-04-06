@@ -46,17 +46,10 @@ export default function Dashboard() {
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-8 pb-10 border-b border-gray-200 dark:border-white/10">
                 
                 <div className="flex flex-col gap-6">
-                    <div className="flex items-center gap-3">
-                        <div className="p-2 bg-brand-primary/10 text-brand-primary border border-brand-primary/20 rounded-lg">
-                            <Activity size={16} strokeWidth={3} />
-                        </div>
-                        <span className="text-[10px] font-black uppercase text-gray-600 dark:text-gray-400 tracking-[0.6em] italic">
-                            Session Reference v8.01
-                        </span>
-                    </div>
+                    
 
                     <h1 className="text-5xl sm:text-7xl font-black tracking-tighter uppercase italic leading-none text-gray-900 dark:text-white">
-                        Registry <span className="text-brand-primary">Flux</span>
+                       Dashboard
                     </h1>
                 </div>
 
